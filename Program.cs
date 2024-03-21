@@ -3,4 +3,6 @@
     return i*i;
 }
 
-Console.WriteLine(Carre(4));
+Console.WriteLine("Saisir un entier");
+int val = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(Carre(val));
